@@ -1,4 +1,4 @@
-#What even is ‘children’?
+# What even is ‘children’?
 
 The React docs say that you can use props.children on components that represent ‘generic boxes’ and that ‘don’t know their children ahead of time’. For me, that didn’t really clear things up. I’m sure for some, that definition makes perfect sense but it didn’t for me.
 
@@ -9,7 +9,7 @@ This de-couples the <Picture> component from its content and makes it more reusa
 React has a powerful composition model, and we recommend using composition instead of inheritance to reuse code between components.
 So it support composition
 
-#Example 
+# Example 
 
 ```js
 const Picture = (props) => {
@@ -34,7 +34,7 @@ render () {
 
 ```
 
-#example 2
+# example 2
 
 ```
 //App.js
