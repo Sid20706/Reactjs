@@ -1,4 +1,5 @@
 What even is ‘children’?
+
 The React docs say that you can use props.children on components that represent ‘generic boxes’ and that ‘don’t know their children ahead of time’. For me, that didn’t really clear things up. I’m sure for some, that definition makes perfect sense but it didn’t for me.
 
 My simple explanation of what this.props.children does is that it is used to display whatever you include between the opening and closing tags when invoking a component.
@@ -7,6 +8,7 @@ This de-couples the <Picture> component from its content and makes it more reusa
 
 Example 
 
+```js
 const Picture = (props) => {
   return (
     <div>
@@ -27,9 +29,11 @@ render () {
   )
 }
 
+```
 
 example 2
 
+```
 //App.js
 import React, { Component } from 'react';
 import Picture from './Picture';
@@ -117,3 +121,4 @@ render() {
   }
 }
 export default Button;
+```
